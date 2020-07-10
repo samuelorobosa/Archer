@@ -1,0 +1,113 @@
+/* Home Section */
+
+#our-team-section {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#our-team-section .inner {
+  max-width: 1000px;
+  line-height: 28px;
+}
+
+.inner h1 {
+  font-weight: 900;
+}
+
+/* Cards */
+.card img {
+  max-height: 600px;
+}
+
+/* titles */
+.card-title,
+.title {
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Cotham Sans";
+  src: url("../Cotham-master/CothamSans.otf");
+}
+
+body {
+  font-family: "Cotham Sans";
+  font-weight: normal;
+}
+.staff {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 4rem 0 2rem;
+}
+
+:root {
+  --main-color: #2d1e2f;
+  --primary-color: #514663;
+  --secondary-color: #5acd32;
+  --white-color: #fff;
+  --main-Line-Height: 1.6;
+}
+
+p {
+  line-height: var(--main-Line-Height);
+  color: var(--main-color);
+}
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+nav {
+  background: #ffffff;
+  box-shadow: 2px 5px 5px #f4f4f4;
+}
+
+.navbar-toggler {
+  border: transparent;
+}
+
+.navbar-toggler:focus {
+  border: transparent;
+}
+
+.btn-success {
+  background-color: var(--secondary-color);
+  border-radius: 3px;
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-success:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+/* footer*/
+
+footer {
+  color: var(--primary-color);
+}
+
+.list-unstyled li a {
+  color: var(--primary-color);
+  font-size: 0.9em;
+  line-height: 20px;
+}
+
+.footer-copyright {
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  font-size: 0.9em;
+}
+
+/* Hire us */
+.Hire-us {
+  background: var(--primary-color);
+  color: #ffffff;
+  border-radius: 16px;
+}

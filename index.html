@@ -5,8 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+     <!-------------------------------------AOS CSS Links------------------------------------->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
@@ -31,16 +35,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active mr-3">
-                    <a style="color: #5ACD32;" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a style="color: #5ACD32;" class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a style="color: #2D1E2F;" class="nav-link" href="#">About us</a>
+                    <a style="color: #2D1E2F;" class="nav-link" href="./about_us.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a style="color: #2D1E2F;" class="nav-link" href="#">Our services</a>
+                    <a style="color: #2D1E2F;" class="nav-link" href="#">Our Services</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a style="color: #2D1E2F;" class="nav-link" href="#">Our team</a>
+                    <a style="color: #2D1E2F;" class="nav-link" href="./our_team.html">Our Team</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="btn btn-success" href="#">Get a Quote</a>
@@ -95,12 +99,12 @@
             </div>
             <div class="row about-images">
                 <div class="col-md-6">
-                    <div class="card my-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="card my-3">
                         <img src="./assets/images/str-clean.jpg" class="card-img-top" alt="...">
                       </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card mt-5 mb-3">
+                    <div data-aos="fade-down" data-aos-duration="1000" class="card mt-5 mb-3">
                         <img src="./assets/images/office-clean.jpg" class="card-img-top" alt="...">
                       </div>
                 </div>
@@ -133,14 +137,14 @@
             </div>
            <div class="row py-5">
                <div class="col-md-4 service-col">
-                    <div class="card mx-auto my-3" style="width: 18rem;">
+                    <div data-aos="zoom-in-up" data-aos-duration="1000" class="card mx-auto my-3" style="width: 18rem;">
                         <img src="./assets/images/img1.png" class="card-img-top" alt="...">
                         <div class="card-body px-0 py-0">
                             <p class="card-text py-2 px-3">Residential <br> Cleaning</p>
                         </div>
                     </div>
                </div>
-               <div class="col-md-4 service-col">
+               <div data-aos="zoom-in-down" data-aos-duration="1000" class="col-md-4 service-col">
                     <div class="card mx-auto my-3" style="width: 18rem;">
                         <img src="./assets/images/img2.png" class="card-img-top" alt="...">
                         <div class="card-body px-0 py-0">
@@ -148,7 +152,7 @@
                         </div>
                     </div>
                </div>
-               <div class="col-md-4 service-col">
+               <div data-aos="zoom-in-up" data-aos-duration="1000" class="col-md-4 service-col">
                     <div class="card mx-auto my-3" style="width: 18rem;">
                         <img src="./assets/images/img3.png" class="card-img-top" alt="...">
                         <div class="card-body px-0 py-0">
@@ -165,12 +169,12 @@
         <div class="overlay-progress py-5">
             <div class="container">
                 <div class=" row progress-title text-center pt-5">
-                    <div class="col-md-7 mx-auto">
+                    <div class="col-md-7 mx-auto" data-aos="zoom-in" data-aos-duration="1000">
                         <h4 class="py-2">What We Do</h4>
                         <h3 class="font-weight-bold py-2">We have been able to satisfy over 3000 clients in different countries</h3>
                     </div>
                 </div>
-                <div class="row pt-5">
+                <div data-aos="zoom-out" data-aos-duration="1500" class="row pt-5">
                     <div class="col-md-6 col-lg-3 mb-5 text-center">
                         <h4 class="font-weight-bold">500+</h4>
                         <p class="card-text">Projects Completed</p>
@@ -384,7 +388,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+     <!-------------------------------------AOS Links------------------------------------->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
     <!--Custom js-->
-    <script src="./asset/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>

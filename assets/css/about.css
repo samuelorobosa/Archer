@@ -1,0 +1,305 @@
+@font-face {
+    font-family: (Cotham);
+    src: url(../../Cotham-master/CothamSans.otf);
+    font-family: (Averta);
+    src: url(../../Averta%2520Black/Averta%20Black.ttf);
+}
+
+
+/**********Variable**********/
+:root {
+        --main-color: #2d1e2f;
+        --primary-color: #514663;
+        --secondary-color: #5acd32;
+        --white-color: #fff;
+        --main-Line-Height: ;
+      }
+/**********General**********/
+      p {
+        line-height: var(--main-Line-Height);
+        
+      }
+h1, h2, h3, h4 {
+    font-family: (Averta);
+}
+      *
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: (Cotham), sans-serif;
+        font-weight: normal;
+        overflow-x: hidden;
+      }
+
+/**********Navbar**********/
+nav {
+        background: #ffffff;
+        box-shadow: 2px 5px 5px #f4f4f4;
+      }
+
+      .navbar-toggler {
+        border: transparent;
+      }
+
+      .navbar-toggler:focus {
+        border: transparent;
+      }
+
+      .btn-success {
+        background-color: var(--secondary-color);
+        border-radius: 3px;
+        border: 1px solid var(--secondary-color);
+      }
+
+      .btn-success:hover {
+        background-color: var(--secondary-color);
+        border: 1px solid var(--secondary-color);
+      }
+/**********About Us**********/
+.abt-us {
+    margin-top: 26vh;
+    width:78vw;
+    margin-bottom: 5vw;
+
+}
+/**********Banner**********/
+.banner {
+    background: url('../images/office-clean.jpg') center/cover no-repeat;
+    height: 80vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.banner::before {
+    background-color: #2D1E2F;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    z-index: 0;
+    opacity: 0.4;
+}
+.we-are {
+    margin-top: 176px !important; 
+    margin-bottom: 176px;
+}
+
+.we-are h2 {
+    margin-bottom: 6.08vh;
+}
+
+
+.banner-2 h3, .banner-2 h4{
+    z-index: -10;
+}
+
+/**********Banner Overlay**********/
+.overlay-progress {
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    opacity: 0.95;
+    color: #ffffff;
+}
+
+/**********What We Do**********/
+.pg {
+    color: #ffffff;
+}
+
+
+/**********Bookings**********/
+.container-align h2{
+    margin-top: 176px;
+    margin-bottom: -0px ;
+    position: relative;
+    font-size: 2rem;    
+    text-justify: none;
+    width: 560px;
+    
+    
+}
+
+.row-con {
+    position: relative;
+    margin-left: 2vw;
+    margin-top: 72px;
+    
+}
+
+.img-1 {
+    position: relative;
+    margin-top: 60px; 
+    
+}
+
+.img-2 {
+    position: relative;
+    margin-top: 120px !important;
+    
+   
+}
+
+.img-3 {
+    position: relative;
+    margin-top: 180px !important;
+   
+
+}
+
+.wave-img {
+    margin: 0px 30px;
+    
+}
+
+.img-fluid {
+   
+}
+
+/**********Work With Us**********/
+.Hire-us {
+    background: var(--primary-color);
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+/**********Footer**********/
+
+      footer {
+        color: var(--primary-color);
+      }
+
+      .list-unstyled li a {
+        color: var(--primary-color);
+        font-size: 0.9em;
+        line-height: 20px;
+      }
+
+      .footer-copyright {
+        border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+        font-size: 0.9em;
+        width: 100%;
+      }
+
+@media screen and (max-width: 767px) {
+    .row-con {
+    
+        
+    
+}
+    
+    .container-align h2{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    width: inherit;
+    
+    
+}
+    .we-are h2 {
+        width: 18rem; 
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    
+    .row-con {
+    overflow-x: auto;
+    width: inherit;
+        
+    
+}
+    
+    .container-align h2{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    width: inherit;
+    
+    
+}
+    .we-are h2 {
+        width: 18rem; 
+    }
+    
+}
+
+
+@media screen and (max-width: 495px) {
+    
+    body {
+        overflow: auto;
+    }
+    
+    
+  
+    .wave-con {
+        position: relative;
+        right: vw;
+    }
+    
+    .work-w-us {
+        left: 1.4vw;
+    }
+    
+    
+}
+
+/**********Media Query**********/
+
+@media screen and (max-width: 452px) {
+    .wave-con h2{
+        position: relative;
+        right: -5vw;
+        font-size: 19px;
+        
+    }
+    
+    
+    .wave-1 {
+        position: relative;
+        right: 5vw;
+    }
+    .img-fluid {
+        right: 5vw;
+    }
+    
+    .work-w-us {
+        left: 1.4vw;
+    }
+    
+     
+    .wave-con {
+        position: relative;
+        right: 3vw;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .wave-con h2{
+        position: relative;
+        right: -5vw;
+        font-size: 15px;
+        width: auto;
+    }
+    
+    .wave-con {
+        position: relative;
+        right: 4vw;
+    }
+    
+    .work-w-us {
+        left: 4vw;
+    }
+    
+}
