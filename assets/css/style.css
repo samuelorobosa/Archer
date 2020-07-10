@@ -6,6 +6,11 @@
     --main-Line-Height: 1.6;
 }
 
+@font-face {
+    font-family: 'Cotham Sans';
+    src: url('../Cotham-master/CothamSans.otf');
+}
+
 p {
     line-height: var(--main-Line-Height);
     color: var(--main-color);
@@ -14,12 +19,13 @@ p {
 *, body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cotham Sans';
     font-weight: normal;
 }
 
 nav {
     background: #ffffff;
+    box-shadow: 2px 5px 5px #f4f4f4;
 }
 
 .navbar-toggler {
@@ -45,6 +51,10 @@ nav {
 .jumbotron {
     background: transparent;
     color: var(--main-color);
+}
+
+.jumbotron .row {
+    margin-left: 5rem;
 }
 
 #video-play {
@@ -259,6 +269,10 @@ footer {
 }
 
 @media only screen and (max-width: 770px) {
+    .jumbotron .row {
+        margin-left: 1rem;
+    }
+    
     .carousel-control-prev {
         left: 0;
     }
