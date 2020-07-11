@@ -14,7 +14,8 @@ body{
     font-family: 'Cotham Sans';
 }
 
-
+.pic0{ 
+margin-bottom: 10%;}
 
 .card-head{
 border-bottom: 2px solid var(--main-color);
