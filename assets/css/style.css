@@ -93,7 +93,6 @@ video {
 }
 
 .carousel p{
-    /* font-size: 1em; */
     text-align: justify;
 }
 
@@ -173,6 +172,7 @@ video {
 
 #progress {
     background: url('../images/progressbg.png') center/cover no-repeat;
+    overflow: hidden;
 }
 
 .overlay-progress {
@@ -266,7 +266,3 @@ footer {
         margin-top: 10rem;
     }
 }
-
-
-
-
